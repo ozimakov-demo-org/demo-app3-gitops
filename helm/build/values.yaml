@@ -1,0 +1,16 @@
+app:
+  name: demo-app3
+  namespace: demo-app3-dev
+  cluster: .apps.cluster-f5s4l.f5s4l.sandbox509.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/ozimakov-demo-org/demo-app3
+  org: ozimakov-demo-org
+  name: demo-app3
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: ozimakov-demo-org
+  name: demo-app3
